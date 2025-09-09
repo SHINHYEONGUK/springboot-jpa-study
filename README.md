@@ -1,29 +1,18 @@
-# Getting Started
+# Spring Boot & JPA 학습 프로젝트
 
-### Reference Documentation
+## 📚 강의 기반
+- 인프런 김영한 - 스프링 부트와 JPA 활용 1편
 
-For further reference, please consider the following sections:
+## 🧩 학습 내용
+- Entity 설계 및 연관관계 매핑
+- Repository를 통한 CRUD 처리
+- 트랜잭션과 영속성 컨텍스트 이해
+- API 설계 및 응답 DTO 구조
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.5/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.5/gradle-plugin/packaging-oci-image.html)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/3.5.5/reference/data/sql.html#data.sql.jpa-and-spring-data)
-* [Thymeleaf](https://docs.spring.io/spring-boot/3.5.5/reference/web/servlet.html#web.servlet.spring-mvc.template-engines)
-* [Spring Web](https://docs.spring.io/spring-boot/3.5.5/reference/web/servlet.html)
+## 🛠️ 기술 스택
+- Java 17, Spring Boot 3.x, JPA, H2 DB, Thymeleaf
 
-### Guides
-
-The following guides illustrate how to use some features concretely:
-
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Handling Form Submission](https://spring.io/guides/gs/handling-form-submission/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-
-### Additional Links
-
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
-
+## 📌 주요 기능
+- 회원 등록 / 조회 / 수정
+- 상품 등록 / 주문 / 취소
+- 주문 내역 조회
